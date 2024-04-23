@@ -3,7 +3,7 @@
 import MultiSelect from "./components/MultiSelect";
 import React, { useState } from 'react';
 
-const options = ['Education', 'Yeeeah, science!', 'Art', 'Sport', 'Games', 'Health'];
+const options = ['Education 🎓', 'Yeeeah, science! ⚗️', 'Art 🎭', 'Sport ⚽', 'Games 🎮', 'Health 🏥'];
 
 export default function Home() {
   const [selected, setSelected] = useState<string[]>([]);
